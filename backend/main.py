@@ -17,9 +17,12 @@ app = FastAPI(
     title="Plant Disease Detection API"
 )
 
-# Allow frontend origin from env var (for deployment) + localhost (for dev)
+# Allow frontend origins (deployment + local dev)
 frontend_url = os.environ.get("FRONTEND_URL", "")
-allowed_origins = ["http://localhost:5173"]
+allowed_origins = [
+    "http://localhost:5173",
+    "https://plant-disease-detection-khaki.vercel.app",
+]
 if frontend_url:
     allowed_origins.append(frontend_url)
 
