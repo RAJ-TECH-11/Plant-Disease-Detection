@@ -1,41 +1,30 @@
 # Python
+venv/
 __pycache__/
 *.pyc
-venv/
-
-# Models
-backend/saved_models/*.pth
-
-# Uploads
-backend/uploads/*
 
 # Dataset
 dataset/
 
+# Uploads
+backend/uploads/
+
+# Python cache
+*.pyo
+*.pyd
+
 # Environment
 .env
-
-# VS Code
-.vscode/
-
-# macOS
-.DS_Store
-
-# Python
-venv/
-__pycache__/
-*.pyc
+*.env
 
 # Frontend
-node_modules/
-dist/
-
-# Uploads
-uploads/
-
-# Environment
-.env
+frontend/node_modules/
+frontend/dist/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/

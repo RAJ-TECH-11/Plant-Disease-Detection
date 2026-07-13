@@ -1,10 +1,35 @@
 import json
+from pathlib import Path
+
 import torch
 from PIL import Image
 from torchvision import transforms
 
+# Resolve paths relative to this file's location
+BASE_DIR = Path(__file__).resolve().parents[1]  # backend/ directory
+
 from app.models.resnet import get_model
-from app.data.dataloader import class_names, num_classes
+
+# Hardcoded class names (sorted alphabetically, matching ImageFolder order)
+# This avoids importing dataloader.py which requires the training dataset on disk
+class_names = [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato_Bacterial_spot",
+    "Tomato_Early_blight",
+    "Tomato_Late_blight",
+    "Tomato_Leaf_Mold",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "Tomato__Target_Spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "Tomato__Tomato_mosaic_virus",
+    "Tomato_healthy",
+]
+num_classes = len(class_names)
 
 
 # -----------------------------
@@ -20,7 +45,7 @@ model = get_model(num_classes)
 
 model.load_state_dict(
     torch.load(
-        "saved_models/resnet_best_model.pth",
+        BASE_DIR / "saved_models" / "resnet_best_model.pth",
         map_location=device
     )
 )
@@ -32,7 +57,7 @@ model.eval()
 # -----------------------------
 # Load Disease Information
 # -----------------------------
-with open("app/disease_info.json", "r") as file:
+with open(BASE_DIR / "app" / "disease_info.json", "r") as file:
     DISEASE_INFO = json.load(file)
 
 

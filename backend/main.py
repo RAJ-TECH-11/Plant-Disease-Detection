@@ -17,9 +17,15 @@ app = FastAPI(
     title="Plant Disease Detection API"
 )
 
+# Allow frontend origin from env var (for deployment) + localhost (for dev)
+frontend_url = os.environ.get("FRONTEND_URL", "")
+allowed_origins = ["http://localhost:5173"]
+if frontend_url:
+    allowed_origins.append(frontend_url)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
