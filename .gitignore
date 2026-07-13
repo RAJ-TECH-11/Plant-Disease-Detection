@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Models
+backend/saved_models/*.pth
+
+# Uploads
+backend/uploads/*
+
+# Dataset
+dataset/
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Frontend
+node_modules/
+dist/
+
+# Uploads
+uploads/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db

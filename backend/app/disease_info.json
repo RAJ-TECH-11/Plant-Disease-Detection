@@ -1,0 +1,206 @@
+{
+  "Pepper__bell___Bacterial_spot": {
+    "description": "A bacterial disease that causes dark spots on pepper leaves and fruits.",
+    "symptoms": [
+      "Dark water-soaked spots",
+      "Yellow halo around spots",
+      "Premature leaf drop"
+    ],
+    "prevention": [
+      "Use disease-free seeds",
+      "Avoid overhead watering",
+      "Apply copper-based bactericide"
+    ]
+  },
+
+  "Pepper__bell___healthy": {
+    "description": "The pepper plant appears healthy.",
+    "symptoms": [
+      "Healthy green leaves",
+      "No visible disease symptoms"
+    ],
+    "prevention": [
+      "Maintain proper irrigation",
+      "Regular inspection",
+      "Balanced fertilization"
+    ]
+  },
+
+  "Potato___Early_blight": {
+    "description": "A fungal disease caused by Alternaria species.",
+    "symptoms": [
+      "Brown circular spots",
+      "Concentric rings",
+      "Yellowing leaves"
+    ],
+    "prevention": [
+      "Remove infected leaves",
+      "Crop rotation",
+      "Apply fungicide"
+    ]
+  },
+
+  "Potato___Late_blight": {
+    "description": "A destructive fungal-like disease caused by Phytophthora infestans.",
+    "symptoms": [
+      "Large dark lesions",
+      "White fungal growth",
+      "Rapid leaf decay"
+    ],
+    "prevention": [
+      "Avoid excess moisture",
+      "Use resistant varieties",
+      "Apply fungicide"
+    ]
+  },
+
+  "Potato___healthy": {
+    "description": "The potato plant appears healthy.",
+    "symptoms": [
+      "Healthy green foliage"
+    ],
+    "prevention": [
+      "Regular monitoring",
+      "Balanced nutrition"
+    ]
+  },
+
+  "Tomato_Bacterial_spot": {
+    "description": "A bacterial infection affecting tomato leaves and fruits.",
+    "symptoms": [
+      "Small dark spots",
+      "Yellow halos",
+      "Leaf damage"
+    ],
+    "prevention": [
+      "Disease-free seeds",
+      "Avoid wet foliage",
+      "Copper spray"
+    ]
+  },
+
+  "Tomato_Early_blight": {
+    "description": "A fungal disease that commonly affects older tomato leaves.",
+    "symptoms": [
+      "Target-like brown spots",
+      "Yellow leaves",
+      "Leaf drop"
+    ],
+    "prevention": [
+      "Crop rotation",
+      "Remove infected leaves",
+      "Use fungicide"
+    ]
+  },
+
+  "Tomato_Late_blight": {
+    "description": "A serious disease that spreads rapidly during cool and humid weather.",
+    "symptoms": [
+      "Large dark lesions",
+      "White mold underneath leaves",
+      "Fruit rot"
+    ],
+    "prevention": [
+      "Avoid overhead watering",
+      "Remove infected plants",
+      "Apply fungicide"
+    ]
+  },
+
+  "Tomato_Leaf_Mold": {
+    "description": "A fungal disease commonly found in greenhouse tomatoes.",
+    "symptoms": [
+      "Yellow patches",
+      "Olive-green mold",
+      "Leaf curling"
+    ],
+    "prevention": [
+      "Improve ventilation",
+      "Reduce humidity",
+      "Apply fungicide"
+    ]
+  },
+
+  "Tomato_Septoria_leaf_spot": {
+    "description": "A fungal disease causing numerous small leaf spots.",
+    "symptoms": [
+      "Tiny gray spots",
+      "Yellow leaves",
+      "Premature defoliation"
+    ],
+    "prevention": [
+      "Remove infected leaves",
+      "Crop rotation",
+      "Use fungicide"
+    ]
+  },
+
+  "Tomato_Spider_mites_Two_spotted_spider_mite": {
+    "description": "Damage caused by spider mites feeding on leaves.",
+    "symptoms": [
+      "Tiny yellow spots",
+      "Leaf bronzing",
+      "Fine webbing"
+    ],
+    "prevention": [
+      "Increase humidity",
+      "Use miticides",
+      "Remove heavily infested leaves"
+    ]
+  },
+
+  "Tomato__Target_Spot": {
+    "description": "A fungal disease producing circular target-like lesions.",
+    "symptoms": [
+      "Brown circular spots",
+      "Leaf blight",
+      "Fruit lesions"
+    ],
+    "prevention": [
+      "Crop rotation",
+      "Proper spacing",
+      "Use fungicide"
+    ]
+  },
+
+  "Tomato__Tomato_YellowLeaf__Curl_Virus": {
+    "description": "A viral disease spread mainly by whiteflies.",
+    "symptoms": [
+      "Yellow curled leaves",
+      "Stunted growth",
+      "Reduced fruit production"
+    ],
+    "prevention": [
+      "Control whiteflies",
+      "Use resistant varieties",
+      "Remove infected plants"
+    ]
+  },
+
+  "Tomato__Tomato_mosaic_virus": {
+    "description": "A viral disease causing mosaic-like discoloration on leaves.",
+    "symptoms": [
+      "Mosaic leaf pattern",
+      "Leaf distortion",
+      "Reduced fruit quality"
+    ],
+    "prevention": [
+      "Disinfect tools",
+      "Remove infected plants",
+      "Avoid tobacco contamination"
+    ]
+  },
+
+  "Tomato_healthy": {
+    "description": "The tomato plant appears healthy.",
+    "symptoms": [
+      "Healthy green leaves",
+      "Normal growth"
+    ],
+    "prevention": [
+      "Maintain irrigation",
+      "Balanced fertilizer",
+      "Regular monitoring"
+    ]
+  }
+}
